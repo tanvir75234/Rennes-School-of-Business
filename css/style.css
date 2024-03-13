@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,p,div,a,li,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+.top_header{
+    background-color: #1D1D1B;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.logo{
+    
+}
+
+
+
+.menu {
+
+}
+
+.menu ul li a{
+    font-size: 14px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.link{
+    padding-top: 0px;
+}
+
+.link ul{
+    display: flex;
+    float: right;
+}
+
+.link ul li{
+    padding: 0px 12px;
+}
+
+.breadcum{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.mar-60{
+    margin-left: 60px;
+}
+
+.breadcum a{
+    font-size: 16px;
+}
+
+/* BANNER PART START */
+#banner{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/banner.jpg);
+    padding: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_ad p{
+    background-color: #F7A70D;
+    display: inline;
+    padding: 3px 8px;
+}
+
+.banner_content a{
+
+}
+
+.banner_content p .campus{
+    background-color: #fff;
+    padding: 4px 8px;
+    color: #1D1D1B;
+    font-weight: 500;
+    border: 1px solid blue;
+}
+
+.banner_content .details{
+    display: inline;
+    margin-top: 60px;
+}
+
+.details a:nth-child(1){
+    background-color: #F7A70D;
+    padding: 10px 20px;
+    margin-left: 0px;
+}
+
+.details a:nth-child(2){
+    background-color: #fff;
+    padding: 8px 20px;
+    margin-left: 0px;
+}
+
+.details a:nth-child(3){
+    background-color: #fff;
+    padding: 8px 20px;
+    margin-left: 0px;
+}
+
+#about{
+    background-color: #F1F5FB;
+}
+
+.about{
+    display: flex;
+}
+
+#main_menu{
+    margin-top: 40px;
+}
+
+.main_menu{
+    background-color: #F1F5FB;
+    padding: 20px 40px;
+}
+
+.main_menu ul{
+    margin: 30px 0px;
+}
+
+.main_menu ul li a:hover{
+    background-color: #F1F5FB;
+}
+
+.menu_content_2{
+    margin-top: 80px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #F1F5FB;
+}
+
+.menu_conteent_2 .menu_links ul{
+    display: flex;
+}
+
+.university{
+    margin-bottom: 50px;
+}
+
+.university ul{
+    display: flex;
+    border-bottom: 2px solid #F1F5FB;
+}
+
+.toefl{
+    background-color: #FBFBFB;
+    display: inline-block;
+    padding: 20px 80px 20px 20px;
+    border: 2px solid black;
+}
+
+.button{
+    background-color: #0A66C2;
+    padding: 4px 8px;
+}
+
+.button_2{
+    border: 2px solid black;
+    padding: 4px 8px;
+
+}
+
+#footer{
+    border-top: 4px solid #F7A70D;
+    background-color: #1D1D1B;
+    margin-bottom: 60px;
+    padding: 60px 20px; 
+}
+
+.link p{
+    margin-top: 40px;
+}
+
+.social ul{
+    display: flex;
+    margin-top: 40px;
+}
+
+.social ul li{
+    padding: 0px 12px;
+}
+
+.social ul li  a{
+    font-size: 20px;
+    background-color: #fff;
+    color: black;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
